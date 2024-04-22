@@ -1,0 +1,1 @@
+# blazor-rte-paste-cleanup
