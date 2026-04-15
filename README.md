@@ -1,14 +1,58 @@
-# Blazor-RTE-Paste-Clean-up
-A quick-start project that helps you how to enable Paste Clean-up in Blazor Rich Text Editor Component. 
+# Blazor Rich Text Editor — Paste Clean-up
 
-Online examples: https://blazor.syncfusion.com/demos/rich-text-editor/paste-cleanup?theme=fluent
+A Blazor sample that demonstrates how to enable and configure Paste Clean-up behavior in the Syncfusion Rich Text Editor component. This repository shows a focused example of sanitizing and normalizing content that is pasted from external sources (for example Microsoft Word or other editors) into the rich text editor.
 
-# Project prerequisites
-Make sure that you have the latest versions of 'Visual Studio 2022' in your machine before starting to work on this project.
+## Online example
 
-# How to run this application?
-• To run this application, you need to first clone the <code>blazor-rte-paste-cleanup</code> repository and then open it in Visual Studio 2022.
+See the live demo for Paste Clean-up behavior:
 
-• Register the syncfusion license key in the Program.cs file, if you have any doubts check the documentation link: https://blazor.syncfusion.com/documentation/getting-started/license-key/how-to-register-in-an-application
+https://blazor.syncfusion.com/demos/rich-text-editor/paste-cleanup?theme=fluent
 
-• Now, simply build and run your project to view the output.
+## Overview
+
+This sample illustrates how to configure the Rich Text Editor to remove unwanted formatting, preserve basic structure, and handle pasted HTML/RTF content consistently. It is intended as a quick-start reference for applications that need predictable paste behavior when users bring content from other editors.
+
+## Prerequisites
+
+- Visual Studio 2022 (or later)
+- A valid Syncfusion Blazor license key when running a licensed build
+
+## Prerequisites
+
+- Visual Studio 2022 (or later) installed on your machine.
+- A valid Syncfusion Blazor license key for licensed deployments.
+
+## Setup & Running Steps
+
+Installation
+
+```bash
+git clone https://github.com/SyncfusionExamples/blazor-rte-mail-merge
+cd blazor-rte-mail-merge
+```
+
+Restore NuGet packages
+
+```bash
+dotnet restore
+```
+
+Run the application
+
+```bash
+dotnet run
+```
+
+## Troubleshooting
+
+- Ensure NuGet packages are restored and the project builds before running.
+- If export fails, check browser console and server logs for errors and confirm any required licenses are configured.
+
+## Support
+
+This sample is provided for demonstration purposes. For issues, open an issue in the repository.
+
+## See also
+
+- [Online examples](https://blazor.syncfusion.com/demos/rich-text-editor/overview?theme=fluent2)
+- [Documentation](https://blazor.syncfusion.com/documentation/rich-text-editor/getting-started-webapp)
